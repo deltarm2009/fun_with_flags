@@ -15,8 +15,6 @@ If you're reading this on the [GitHub repo](https://github.com/tompave/fun_with_
 
 ---
 
-FunWithFlags is an OTP application that provides a 2-level storage to save and retrieve feature flags, an Elixir API to toggle and query them, and a [web dashboard](#web-dashboard) as control panel.
-
 It stores flag information in Redis or a relational DB (PostgreSQL, MySQL, or SQLite - with Ecto) for persistence and synchronization across different nodes, but it also maintains a local cache in an ETS table for fast lookups. When flags are added or toggled on a node, the other nodes are notified via PubSub and reload their local ETS caches.
 
 ## Content
