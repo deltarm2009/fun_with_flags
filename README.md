@@ -9,8 +9,6 @@
 [![ElixirWeekly](https://img.shields.io/badge/featured-ElixirWeekly-8e5ab5.svg)](https://elixirweekly.net/issues/43)
 [![ElixirCasts](https://img.shields.io/badge/featured-ElixirCasts-ff931e.svg)](https://elixircasts.io/feature-flags)
 
-FunWithFlags, the Elixir feature flag library.
-
 If you're reading this on the [GitHub repo](https://github.com/tompave/fun_with_flags), keep in mind that this readme refers to the `master` branch. For the latest version released on Hex, please check [the readme published with the docs](https://hexdocs.pm/fun_with_flags/readme.html).
 
 ---
